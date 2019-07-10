@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>八马茶业官方商城</title>
+	<meta content="1212122" property="qc:admins/"><!--qq-->
+	<meta content="9895bb61ab873d991" property="wb:webmaster/"><!--sina-->
+	<meta name="description" content="JDstore商城 - 最优质的独立商城系统" />
+	<meta name="keywords" content="商城开发，商城订制，电商网站开发，购物网站建设" />
+	<meta name="renderer" content="webkit" /><!-- 极速打开模式 -->
+    <link rel="stylesheet"  href="../css/01.css"/>
+    <link rel="stylesheet"  href="../css/shopcartheader.css"/>
+	<link rel="Shortcut Icon"  href=""/>
+</head>
+<body>
+	<div class="header">
+		<p>加入收藏&nbsp;&nbsp;&nbsp;分享给好友&nbsp;&nbsp;
+			|&nbsp;&nbsp;您好，欢迎来到八马茶业官方商城！&nbsp;&nbsp;&nbsp;&nbsp;<a id="toLogin" href="login.html">请登录</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<a href="login.html">免费注册</a>
+			<span class="header_span">
+				<a href="#">我的订单</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="#">会员俱乐部</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="#">收藏夹</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="#">客户服务</a>&nbsp;&nbsp;
+			</span>
+		</p>
+    </div>
+    <div class="shopcartheader">
+        <img src="../img/bamalog.jpg" alt="">
+		<span >购物车</span>
+		<div class="sho_h_right">
+			<div><b>3</b></div>
+			<p>3.提交订单信息</p>
+		</div>
+		<div class="sho_h_right">
+			<div><b>2</b></div>
+			<p>2.核对订单信息</p>
+		</div>
+		<div class="sho_h_right">
+			<div class="now-color"><b class="now-color">1</b></div>
+			<p class="now-color">1.我的购物车</p>
+		</div>
+		<div class="shopcartbody">
+			<div class="th p-l-10">
+				<div class="ck-all">
+					<input type="checkbox" class="chbAll" checked>
+					全选
+				</div>
+				<div class="th-detail">商品信息</div>
+				<div class="th-price">单价（元）</div>
+				<div class="th-number">数量</div>
+				<div class="th-sum">小计</div>
+				<div class="th-op">操作</div>
+			</div>
+			<div class="th-ck p-l-10">
+				<div>
+					<input class="chbChild" type="checkbox" checked>
+					<b>平台自营</b>
+					<div class="float-right p-r-10">全场包邮</div>
+				</div>	
+			</div>
+			<div class="tbody">
+				<!-- <div class="pro_list p-l-10">
+					<div>
+						<input class="chbChild" type="checkbox">
+					</div>
+					<div>
+						<img src="..\img\1\right_pro\mxcl\main01.jpg" alt="" width="80px">
+					</div>
+					<div class="w-200">
+						<a href="#">
+								【买1送1】八马茶叶 2019春茶私享雅韵安溪铁观音茶叶清香型乌龙茶兰
+						</a>
+					</div>
+					<div>
+						<p>属性 ： 主商品 </p>
+					</div>
+					<div>
+						￥<span>99.00</span>元
+					</div>
+					<div class="num-text">
+						<div class="proCount">
+							<a href="javascript:;">-</a>
+							<input type="text" value="1">
+							<a href="javascript:;">+</a>
+						</div>
+						<p>有货</p>
+					</div>
+					<div style="color: red">￥<b>99</b>元</div>
+					<div class="p-r-10">
+						<a class="delete" href="javascript:;" disabled>删除</a><br>
+						<a href="javascript:;">移动到我的关注</a>
+					</div>
+				</div>
+				<div class="pro_list p-l-10">
+					<div>
+						<input class="chbChild" type="checkbox">
+					</div>
+					<div>
+						<img src="..\img\1\right_pro\mxcl\main01.jpg"alt="" width="80px">
+					</div>
+					<div class="w-200">
+						<a href="#">
+									【买1送1】八马茶叶 2019春茶私享雅安溪铁观音茶叶清香型乌龙茶兰
+						</a>
+					</div>
+					<div>
+						<p>属性 ： 主商品 </p>
+					</div>
+					<div>
+						￥<span>99.00</span>元
+					</div>
+					<div class="num-text">
+						<div class="proCount">
+							<a href="#">-</a>
+							<input type="text" value="1">
+							<a href="#">+</a>
+						</div>
+						<p>有货</p>
+					</div>
+					<div style="color: red">￥<b>99</b>元</div>
+					<div class="p-r-10">
+						<a class="delete" href="#">删除</a><br>
+						<a href="#">移动到我的关注</a>
+					</div>
+				</div>		 -->
+			</div>
+			<div class="tfoot">
+				<div class="tfoot-left">
+					&nbsp;
+					<input class="p-l-10 chbAll" type="checkbox" checked>
+					&nbsp;全选&nbsp;
+					<a class="deleteAll" href="#">删除选中商品</a>&nbsp;删除失效商品
+				</div>	
+				<div class="tfoot-right">
+					<div>
+						<button>去结算</button>
+					</div>  
+					<div>
+						<p>总价（不含运费）：￥<span id="allMoney">1278.00</span><br>
+						已选商品：<span>11</span>件 为您节省：￥<span>0.00</span></p>
+					</div> 
+				</div>
+			</div>
+		</div>
+    </div>
+    <div class="confirmBack"></div> 
+    <div class="confirmBox">
+		<h1>确认删除商品吗？<span class="deleteNo">x</span></h1>
+		<a href="#" class="deleteYes">确认</a>
+		<a href="#" class="deleteNo">取消</a>
+    </div>
+    <script src="../js/jquery-1.11.3.js"></script>
+	<script src="../js/myshoppingcart.js"></script>
+	<script src="../js/jquery-3.2.1.js"></script>
+	<script src="../js/keeplogin.js"></script>
+</body>
+</html>
